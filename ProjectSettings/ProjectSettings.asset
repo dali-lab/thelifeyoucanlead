@@ -4,14 +4,14 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
-  productGUID: 3af77b71e8c644f0c81f9a38cf1fd2f1
+  productGUID: 60c2303868f974047a0def5421b4923d
   AndroidProfiler: 0
   defaultScreenOrientation: 4
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Life You Can Lead
+  productName: LifeYouCanLead
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13333334, g: 0.17254902, b: 0.21176471, a: 1}
@@ -287,7 +287,7 @@ PlayerSettings:
   ps4DownloadDataSize: 0
   ps4GarlicHeapSize: 2048
   ps4ProGarlicHeapSize: 2560
-  ps4Passcode: hRXdCdG5nG5azdNMK66MuCV6GXi5xr84
+  ps4Passcode: j99nsQzldVI5ZuGXbEWRK5RhRXdCdG5n
   ps4UseDebugIl2cppLibs: 0
   ps4pnSessions: 1
   ps4pnPresence: 1
@@ -334,7 +334,7 @@ PlayerSettings:
   psp2LiveAreaTrialPath: 
   psp2PatchChangeInfoPath: 
   psp2PatchOriginalPackage: 
-  psp2PackagePassword: P2R391UXaLHbavJvFZGfO47XWS2qVOw5
+  psp2PackagePassword: G5azdNMK66MuCV6GXi5xr84P2R391UXa
   psp2KeystoneFile: 
   psp2MemoryExpansionMode: 0
   psp2DRMType: 0
@@ -386,14 +386,14 @@ PlayerSettings:
   additionalIl2CppArgs: 
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Life You Can Lead
+  metroPackageName: LifeYouCanLead
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Life You Can Lead
+  metroApplicationDescription: LifeYouCanLead
   wsaImages: {}
   metroTileShortName: 
   metroCommandLineArgsFile: 
@@ -462,7 +462,7 @@ PlayerSettings:
   vrEditorSettings: {}
   cloudServicesEnabled:
     UNet: 1
-  cloudProjectId: d2cb0ee3-bec3-4c7a-8bb1-2ab9e1bfe07b
-  projectName: Life You Can Lead (2)
-  organizationId: jpoxrox
+  cloudProjectId: a1fd0315-df93-4a19-9242-30c61416d48f
+  projectName: LifeYouCanLead
+  organizationId: the-life-you-can-lead-dali
   cloudEnabled: 0
