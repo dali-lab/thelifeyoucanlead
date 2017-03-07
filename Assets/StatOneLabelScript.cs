@@ -1,14 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class StatTwoLabelScript : MonoBehaviour {
+public class StatOneLabelScript : MonoBehaviour {
 	public GameController controller;
-	public string text;
+	public Text text;
 
 	// Use this for initialization
 	void Start () {
 		GameObject controllerObject = GameObject.Find ("GameController");
+		text = gameObject.GetComponent<Text> ();
 
 		if (controllerObject != null) {
 			controller = controllerObject.GetComponent<GameController> ();
@@ -17,9 +19,8 @@ public class StatTwoLabelScript : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		var statTwoVal = controller.statTwo;
-		print (statTwoVal);
+		var statOneVal = controller.statOne;
 
-		text = "Stat 2: " + statTwoVal.ToString ();
+		text.text = "Stat 1: " + statOneVal.ToString ();
 	}
 }

@@ -596,6 +596,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   statOne: 0
   statTwo: 50
+  statOneText: {fileID: 0}
+  statTwoText: {fileID: 0}
 --- !u!4 &1681744388
 Transform:
   m_ObjectHideFlags: 0
@@ -838,8 +840,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -72, y: 33}
-  m_SizeDelta: {x: 107, y: 29}
+  m_AnchoredPosition: {x: -171, y: 103}
+  m_SizeDelta: {x: 306, y: 263}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1840131747
 MonoBehaviour:
@@ -862,11 +864,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
-    m_MaxSize: 40
+    m_MaxSize: 50
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -886,11 +888,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1840131745}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06180fd12e5d54776b14c50c158a53c9, type: 3}
+  m_Script: {fileID: 11500000, guid: 1176873a83d3a4d1f9fb797a38b5de77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controller: {fileID: 0}
+  text: {fileID: 0}
 --- !u!1 &2059927968
 GameObject:
   m_ObjectHideFlags: 0
@@ -924,8 +928,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 79, y: 33.000008}
-  m_SizeDelta: {x: 110, y: 29}
+  m_AnchoredPosition: {x: 193, y: -35}
+  m_SizeDelta: {x: 334, y: 271}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2059927970
 MonoBehaviour:
@@ -948,11 +952,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
-    m_MaxSize: 40
+    m_MaxSize: 50
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -972,8 +976,10 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2059927968}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8dfca4ffb739d4ea79f9c017f1447ebc, type: 3}
+  m_Script: {fileID: 11500000, guid: f6ed3591cbd8a4864b618a7683303c23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controller: {fileID: 0}
+  text: {fileID: 0}
